@@ -1,4 +1,5 @@
 import requests
+import subprocess
 import pprint
 import rumps
 import threading
@@ -21,12 +22,23 @@ class CricMenu(rumps.App):
         thread.start()
 
 
-    @rumps.clicked("ESPNCricInfo URL")
+    @rumps.clicked("Enter Match URL")
     def changeMatchId(self, sender):
-        # window = rumps.Window(title="Enter URL of the match (ESPNCricInfo)")
-        window = rumps.Window(title="Enter match ID")
-        response = window.run()
-        self.match_id = response.text
+        self.match_id = self.getMatchID()
+
+
+    def getMatchURL(self):
+        command = '''
+            osascript -e 'text returned of (display dialog "Match URL from ESPNCricInfo?" buttons {"OK"} default answer "" default button 1)'
+            '''
+        url = subprocess.check_output(command, shell=True, text=True)
+        return url
+
+
+    def getMatchID(self):
+        '''Get the match ID'''
+        url = self.getMatchURL()
+        return re.findall(r'\d+', url)[-1]
 
         
     def getScore(self):

@@ -1,6 +1,5 @@
 __pycache__
 .direnv
-.python-version
 .envrc
-dist
 build
+dist

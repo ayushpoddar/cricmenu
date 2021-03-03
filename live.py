@@ -70,9 +70,9 @@ class CricMenu(rumps.App):
     def conditionallyNotify(self):
         '''Send notification in case of boundary or wicket'''
         if self.shouldNotifyForParam("runs"):
-            notification.notify("Runs", "That is a boundary")
+            notification.notify("CricMenu", "Boundary!")
         if self.shouldNotifyForParam("wickets"):
-            notification.notify("HOWZZAT!", "That is a wicket")
+            notification.notify("CricMenu", "Wicket!")
 
 
     def setTitle(self, jsonData):

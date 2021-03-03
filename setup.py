@@ -1,7 +1,7 @@
 from setuptools import setup
 
 APP = ['live.py']
-DATA_FILES = ["notification.py"]
+DATA_FILES = []
 OPTIONS = {
     'argv_emulation': True,
     'iconfile': 'icon.icns',

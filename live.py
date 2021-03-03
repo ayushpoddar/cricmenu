@@ -2,6 +2,7 @@ import requests
 import subprocess
 import rumps
 import re
+import threading
 import notification
 
 class CricMenu(rumps.App):
@@ -20,7 +21,9 @@ class CricMenu(rumps.App):
     @rumps.timer(10)
     def update(self, sender):
         '''Update score every n seconds'''
-        self.getScore()
+        # self.getScore()
+        thread = threading.Thread(target=self.getScore)
+        thread.start()
 
 
     @rumps.clicked("Enter Match URL")

@@ -1,7 +1,7 @@
 # CricMenu
 Live cricket score on MacOS Menu Bar
 
-[Download here](https://github.com/ayushpoddar/cricmenu/releases/download/1.0.0/CricMenu.zip)
+[Download here](https://github.com/ayushpoddar/cricmenu/raw/1.0.0/CricMenu.zip)
 
 ## Instructions:
 

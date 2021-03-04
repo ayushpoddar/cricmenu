@@ -35,6 +35,8 @@ Would love to hear about your feature requests and issues you face. Send me an e
 1. Currently, the score API is fetched every 10 seconds in a new thread. This causes two issues:
   - After the score is updated, the second thread resets it to the older score.
   - Double notifications for a single event.
+2. The displayed score, sometimes shifts out of view. This fixes itself once the score changes
+    ![Score out of view](https://i.imgur.com/rs24evf.png)
 
 ## Installation help
 

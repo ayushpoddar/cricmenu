@@ -3,6 +3,9 @@ Live cricket score on MacOS Menu Bar
 
 [Download here](https://github.com/ayushpoddar/cricmenu/releases/download/1.0.0/CricMenu.zip)
 
+## How does it look
+![England vs India 4th Test - Ahmedabad - 2021](https://i.imgur.com/9gzLLsE.png)
+
 ## Instructions:
 
 1. Download the [ZIP file](https://github.com/ayushpoddar/cricmenu/releases/download/1.0.0/CricMenu.zip)
@@ -32,3 +35,13 @@ Would love to hear about your feature requests and issues you face. Send me an e
 1. Currently, the score API is fetched every 10 seconds in a new thread. This causes two issues:
   - After the score is updated, the second thread resets it to the older score.
   - Double notifications for a single event.
+
+## Installation help
+
+When opening the app for the first time, MacOS will warn you that this app is from an unverified developer. Do the following after the warning pop up comes:
+1. In the pop up shown, do NOT click on Move to Bin. Just click on the Cancel button.
+2. Go to system preferences
+3. Go to Security & Privacy
+4. In the General tab, you will find an Open Anyway button. Click on that.
+   ![Open unverified developer's app](https://i.imgur.com/vDzsaEv.png)
+5. Click on Open in the confirmation pop up that Mac shows you next

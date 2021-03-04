@@ -1,11 +1,11 @@
 # CricMenu
 Live cricket score on MacOS Menu Bar
 
-[Download here](https://github.com/ayushpoddar/cricmenu/blob/main/CricMenu.zip)
+[Download here](https://github.com/ayushpoddar/cricmenu/releases/download/1.0.0/CricMenu.zip)
 
 ## Instructions:
 
-1. Download the [ZIP file](https://github.com/ayushpoddar/cricmenu/blob/main/CricMenu.zip)
+1. Download the [ZIP file](https://github.com/ayushpoddar/cricmenu/releases/download/1.0.0/CricMenu.zip)
 2. The ZIP file contains the application
 3. Copy the URL of the match from [ESPNCricInfo](https://www.espncricinfo.com/)
 4. Paste the URL in the dialog box that pops up when the application is opened

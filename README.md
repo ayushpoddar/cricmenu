@@ -36,7 +36,7 @@ Would love to hear about your feature requests and issues you face. Send me an e
   - After the score is updated, the second thread resets it to the older score.
   - Double notifications for a single event.
 2. The displayed score, sometimes shifts out of view. This fixes itself once the score changes
-    ![Score out of view](https://i.imgur.com/rs24evf.png)
+    ![Score out of view](https://i.imgur.com/X7MpASI.png)
 
 ## Installation help
 

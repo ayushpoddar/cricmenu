@@ -39,9 +39,9 @@ Would love to hear about your feature requests and issues you face. Send me an e
 ## Installation help
 
 When opening the app for the first time, MacOS will warn you that this app is from an unverified developer. Do the following after the warning pop up comes:
-1. In the pop up shown, do NOT click on Move to Bin. Just click on the Cancel button.
-2. Go to system preferences
-3. Go to Security & Privacy
-4. In the General tab, you will find an Open Anyway button. Click on that.
+1. In the pop up shown, do NOT click on **Move to Bin**. Just click on the **Cancel** button.
+2. Go to **System preferences**
+3. Go to **Security & Privacy**
+4. In the **General** tab, you will find an **Open Anyway** button. Click on that.
    ![Open unverified developer's app](https://i.imgur.com/vDzsaEv.png)
-5. Click on Open in the confirmation pop up that Mac shows you next
+5. Click on **Open** in the confirmation pop up that Mac shows you next
